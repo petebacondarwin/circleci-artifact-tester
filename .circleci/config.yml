@@ -7,4 +7,4 @@ jobs:
       - checkout
       - run: mkdir dist && cp README.md dist
       - store_artifacts:
-        path: /dist/README.md
+          path: /dist/README.md
