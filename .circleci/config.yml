@@ -18,3 +18,6 @@ jobs:
 
       - store_artifacts:
           path: /tmp/artifacts
+notify:
+  webhooks:
+    - url: https://us-central1-circleci-artifact-tester.cloudfunctions.net/function-1
