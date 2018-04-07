@@ -5,7 +5,8 @@ jobs:
       - image: ubuntu:14.04
     steps:
       - checkout
-      - run |
+
+      - run: |
         mkdir dist
         cp README.md dist
       - store_artifacts:
